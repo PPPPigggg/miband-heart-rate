@@ -853,8 +853,10 @@ version = "0.1.0"
 dependencies = [
  "bluest",
  "futures-lite 2.6.0",
+ "futures-util",
  "serde",
  "tokio",
+ "tokio-stream",
  "warp",
 ]
 
@@ -1355,6 +1357,7 @@ dependencies = [
  "futures-core",
  "pin-project-lite",
  "tokio",
+ "tokio-util",
 ]
 
 [[package]]
